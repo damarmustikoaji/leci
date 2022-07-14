@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron:  '30 04 * * 1-5'
+    - cron:  '30 02 * * 1-5'
 
 # env:
 #  COBAPI_URL: ${{ secrets.COBAPI_URL }}
@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-#     - name: npm cache
-#       uses: actions/cache@v2
-#       with:
-#         path: '**/node_modules'
-#         key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
+    - name: npm cache
+      uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
     - name: Installing
       run: npm install
     - name: Create folder reports
