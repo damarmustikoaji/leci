@@ -1,4 +1,4 @@
-const CallTreePage = require('../pageobjects/login.page');
+const CallTreePage = require('../pageobjects/call_tree_page');
 const SecurePage = require('../pageobjects/secure.page');
 const daftar = require('../../data/daftar.json');
 

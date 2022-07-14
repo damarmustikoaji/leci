@@ -1,13 +1,12 @@
 {
-  "name": "coba",
+  "name": "leci",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automation Testing for Website using mocha with webdriverio",
   "scripts": {
     "test": "./node_modules/.bin/wdio run wdio.conf.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "damar mustiko aji",
   "license": "ISC",
   "devDependencies": {
     "@wdio/cli": "^7.20.5",
@@ -15,6 +14,7 @@
     "@wdio/mocha-framework": "^7.20.3",
     "@wdio/spec-reporter": "^7.20.3",
     "chromedriver": "^103.0.0",
+    "moment-timezone": "^0.5.33",
     "wdio-chromedriver-service": "^7.3.2"
   }
 }
