@@ -1,8 +1,20 @@
 {
     "data": [
         {
-            "nama": "damar",
+            "nama": "damar qa",
             "group": "Quality Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
+        },
+        {
+            "nama": "damar core",
+            "group": "Core Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
+        },
+        {
+            "nama": "damar product",
+            "group": "Product Engineering Group",
             "lokasi": "Yogyakarta",
             "kondisi": "Sehat"
         }

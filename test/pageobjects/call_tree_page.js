@@ -27,6 +27,10 @@ class CallTreePage extends Page {
         return $('//span[.="Core Engineering Group"]');
     }
 
+    get productEngineeringGroup () {
+        return $('//span[.="Product Engineering Group"]');
+    }
+
     get inputGroup () {
         return $('//*[@id="SelectId_0_placeholder"]');
     }
@@ -56,6 +60,12 @@ class CallTreePage extends Page {
         await this.dropdownGroup.click();
         if (group == 'Quality Engineering Group') {
             await this.qualityEngineeringGroup.click();
+        }
+        if (group == 'Core Engineering Group') {
+            await this.coreEngineeringGroup.click();
+        }
+        if (group == 'Product Engineering Group') {
+            await this.productEngineeringGroup.click();
         }
         await this.inputLokasi.setValue(lokasi);
         if (kondisi == 'Sehat') {
