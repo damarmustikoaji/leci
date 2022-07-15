@@ -29,6 +29,18 @@
             "group": "Core Engineering Group",
             "lokasi": "Yogyakarta",
             "kondisi": "Sehat"
+        },
+        {
+            "nama": "Devangga Reval Rahardian",
+            "group": "Quality Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
+        }
+        {
+            "nama": "Armisianto",
+            "group": "Core Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
         }
     ]
 }
