@@ -11,6 +11,12 @@
             "group": "Core Engineering Group",
             "lokasi": "Yogyakarta",
             "kondisi": "Sehat"
+        },
+        {
+            "nama": "Pais",
+            "group": "Core Engineering Group",
+            "lokasi": "Jogja",
+            "kondisi": "Sehat"
         }
     ]
 }
