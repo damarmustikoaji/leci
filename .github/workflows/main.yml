@@ -1,10 +1,6 @@
 name: Automation Testing
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
   schedule:
     - cron:  '00 00 * * 1-5'
 
