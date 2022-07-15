@@ -17,6 +17,12 @@
             "group": "Core Engineering Group",
             "lokasi": "Jogja",
             "kondisi": "Sehat"
+        },
+        {
+            "nama": "Ade Armyatna",
+            "group": "Core Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
         }
     ]
 }
