@@ -17,6 +17,12 @@
             "group": "Core Engineering Group",
             "lokasi": "Jogja",
             "kondisi": "Sehat"
+        },
+        {
+            "nama": "Pratama Nur Wijaya",
+            "group": "Product Engineering Group",
+            "lokasi": "Jogja",
+            "kondisi": "Sehat"
         }
     ]
 }
