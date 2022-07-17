@@ -1,3 +1,4 @@
+[![Automation Testing](https://github.com/damarmustikoaji/leci/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/damarmustikoaji/leci/actions/workflows/main.yml)
 # Leci
 
 Automation Testing for Website using Webdriverio with Mocha Framework
