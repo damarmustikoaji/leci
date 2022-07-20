@@ -24,4 +24,4 @@ Note:
 Support Group
 - Locator Element: https://github.com/damarmustikoaji/leci/blob/master/test/pageobjects/call_tree_page.js#L22
 - Value: https://github.com/damarmustikoaji/leci/blob/master/test/pageobjects/call_tree_page.js#L61
-- Running on scheduled cron:  '0 22 * * *' -> Pukul 22.18 utc https://www.timeanddate.com/worldclock/timezone/utc -> Pukul 05.18 WIB
+- Running on scheduled cron:  ['0 22 * * *'](https://github.com/damarmustikoaji/leci/blob/master/.github/workflows/main.yml#L5) -> Pukul 22.18 utc https://www.timeanddate.com/worldclock/timezone/utc -> Pukul 05.18 WIB
