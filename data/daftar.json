@@ -41,6 +41,12 @@
             "group": "Core Engineering Group",
             "lokasi": "Yogyakarta",
             "kondisi": "Sehat"
+        },
+        {
+            "nama": "Tri Setyo Okdiyanto",
+            "group": "Core Engineering Group",
+            "lokasi": "Yogyakarta",
+            "kondisi": "Sehat"
         }
     ]
 }
