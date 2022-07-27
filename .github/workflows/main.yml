@@ -1,8 +1,6 @@
 name: Automation Testing
 
 on:
-  push:
-    branches: [ master ]
   schedule:
     - cron:  '0 22 * * *'
   
