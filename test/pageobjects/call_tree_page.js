@@ -12,7 +12,7 @@ class CallTreePage extends Page {
      * define selectors using getter methods
      */
     get inputNama () {
-        return $('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[1]/div/div[3]/div/div/input');
+        return $('//*[@id="form-main-content"]/div/div[1]/div[2]/div[2]/div[1]/div/div[3]/div/div/input');
     }
 
     get dropdownGroup () {
@@ -36,7 +36,7 @@ class CallTreePage extends Page {
     }
 
     get inputLokasi () {
-        return $('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[3]/div/div[3]/div/div/input');
+        return $('//*[@id="form-main-content"]/div/div[1]/div[2]/div[2]/div[3]/div/div[3]/div/div/input');
     }
 
     get inputSehat () {
