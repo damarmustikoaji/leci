@@ -72,7 +72,7 @@ class CallTreePage extends Page {
             await this.inputSehat.click();
         }
         await browser.saveScreenshot(`./reports/${nama}_${today}.png`);
-        await this.btnSubmit.click();
+        // await this.btnSubmit.click();
     }
 
     /**
