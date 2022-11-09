@@ -2,4 +2,3 @@ node_modules
 reports
 .env
 .DS_Store
-package-lock.json
