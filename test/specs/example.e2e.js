@@ -10,9 +10,9 @@ describe('Call Tree Kesehatan', () => {
         it(`As a User, I should be able to successfully submit ${value.nama} ${value.group} ${value.lokasi} ${value.kondisi}`, async () => {
             await CallTreePage.open();
             await CallTreePage.mengisiForm(value.nama, value.group, value.lokasi, value.kondisi);
-            // await expect(SecurePage.flashAlert).toBeExisting();
-            // await expect(SecurePage.flashAlert).toHaveTextContaining('Salam Sehat Selalu');
-            // await browser.saveScreenshot(`./reports/${value.nama}_submited_${today}.png`);
+            await expect(SecurePage.flashAlert).toBeExisting();
+            await expect(SecurePage.flashAlert).toHaveTextContaining('Salam Sehat Selalu');
+            await browser.saveScreenshot(`./reports/${value.nama}_submited_${today}.png`);
         });
     }
 });
