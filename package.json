@@ -16,6 +16,6 @@
     "@wdio/spec-reporter": "^7.20.3",
     "chromedriver": "^107.0.3",
     "moment-timezone": "^0.5.33",
-    "wdio-chromedriver-service": "^7.3.2"
+    "wdio-chromedriver-service": "^8.0.0"
   }
 }
