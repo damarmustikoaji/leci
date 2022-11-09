@@ -48,7 +48,7 @@ class CallTreePage extends Page {
     }
 
     get btnSubmit () {
-        return $('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[3]/div[1]/button');
+        return $('//*[@id="form-main-content"]/div/div[1]/div[2]/div[3]/div[1]/button/div');
     }
 
     /**

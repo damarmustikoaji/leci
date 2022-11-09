@@ -10,7 +10,7 @@ class SecurePage extends Page {
      * define selectors using getter methods
      */
     get flashAlert () {
-        return $('//*[@id="form-container"]/div/div/div[1]/div/div[2]/div[1]/div[2]/span');
+        return $('//*[@id="form-main-content"]/div/div[2]/div[1]/div[2]');
     }
 }
 
