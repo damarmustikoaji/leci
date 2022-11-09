@@ -14,7 +14,7 @@
     "@wdio/local-runner": "^7.20.5",
     "@wdio/mocha-framework": "^7.20.3",
     "@wdio/spec-reporter": "^7.20.3",
-    "chromedriver": "^106.0.1",
+    "chromedriver": "^107.0.2",
     "moment-timezone": "^0.5.33",
     "wdio-chromedriver-service": "^7.3.2"
   }
