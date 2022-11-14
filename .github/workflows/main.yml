@@ -12,31 +12,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: npm cache
-      uses: actions/cache@v2
-      with:
-        path: '**/node_modules'
-        key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
+    # - name: npm cache
+    #   uses: actions/cache@v2
+    #   with:
+    #     path: '**/node_modules'
+    #     key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
     - name: Installing
       run: npm install
     - name: Create folder reports
       run: mkdir reports
     - name: Running Test
       run: npm run test
-    # - name: Get current time
-    #   uses: josStorer/get-current-time@v2
-    #   id: current-time
-    #   with:
-    #     format: YYYYMMDD-HH.MM
-    #     utcOffset: "+07:00"
-    # - name: Use current time
-    #   env:
-    #     F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
-    #   run: echo Reports $F_TIME
     - name: Reporting
       if: always()
       uses: actions/upload-artifact@v2
       with:
-        # name: Reports ${{ steps.current-time.outputs.formattedTime }}
         name: Reports
         path: reports
