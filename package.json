@@ -1,20 +1,32 @@
 {
   "name": "leci",
   "version": "1.0.0",
-  "description": "Automation Testing for Website using mocha with webdriverio",
+  "description": "[![Automation Testing](https://github.com/damarmustikoaji/leci/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/damarmustikoaji/leci/actions/workflows/main.yml) # Leci",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "./node_modules/.bin/wdio run wdio.conf.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damarmustikoaji/leci.git"
+  },
   "keywords": [],
-  "author": "damar mustiko aji",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damarmustikoaji/leci/issues"
+  },
+  "homepage": "https://github.com/damarmustikoaji/leci#readme",
   "devDependencies": {
-    "@wdio/cli": "^7.20.5",
-    "@wdio/dot-reporter": "^7.20.3",
-    "@wdio/local-runner": "^7.20.5",
-    "@wdio/mocha-framework": "^7.20.3",
-    "@wdio/spec-reporter": "^7.20.3",
+    "@wdio/cli": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0",
     "chromedriver": "^107.0.3",
+    "moment": "^2.29.4",
     "wdio-chromedriver-service": "^8.0.0"
   }
 }

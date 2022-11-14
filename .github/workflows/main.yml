@@ -1,22 +1,22 @@
 name: Automation Testing
 
 on:
-  # push:
-  #   branches:
-  #     - master
-  schedule:
-    - cron:  '00 00 * * 1-5'
+  push:
+    branches:
+      - master
+  # schedule:
+  #   - cron:  '00 00 * * 1-5'
   
 jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    # - name: npm cache
-    #   uses: actions/cache@v2
-    #   with:
-    #     path: '**/node_modules'
-    #     key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
+    - name: npm cache
+      uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
     - name: Installing
       run: npm install
     - name: Create folder reports

@@ -16,5 +16,3 @@ describe('Call Tree Kesehatan', () => {
         });
     }
 });
-
-
